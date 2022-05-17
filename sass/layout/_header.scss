@@ -25,12 +25,14 @@
   padding-bottom: 32px;
   color: var(--secondary-text-color);
   transition: color var(--time) var(--cubic);
+
+  &:hover,
+  &:focus,
+  &.current-navigation {
+    color: var(--accent-color);
+  }
 }
-.navigation__list .link:hover,
-.navigation__list .link:focus,
-.navigation__list .link.current-navigation {
-  color: var(--accent-color);
-}
+
 .current-navigation::after {
   content: '';
   position: absolute;

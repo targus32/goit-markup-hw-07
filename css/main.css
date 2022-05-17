@@ -109,10 +109,7 @@ img {
   color: var(--secondary-text-color);
   transition: color var(--time) var(--cubic);
 }
-
-.navigation__list .link:hover,
-.navigation__list .link:focus,
-.navigation__list .link.current-navigation {
+.navigation__list .link:hover, .navigation__list .link:focus, .navigation__list .link.current-navigation {
   color: var(--accent-color);
 }
 
