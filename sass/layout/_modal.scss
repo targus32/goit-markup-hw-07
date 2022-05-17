@@ -23,6 +23,16 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+  }
 }
 .modal-button-close {
   position: absolute;
@@ -45,15 +55,6 @@
   }
 }
 
-.modal h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 12px;
-}
 .modal-field {
   margin-bottom: 10px;
 }
@@ -119,6 +120,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  span {
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+    border: 2px solid var(--secondary-text-color);
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--time) var(--cubic),
+      border var(--time) var(--cubic);
+  }
 }
 .modal-check__conditions {
   font-size: 14px;
@@ -126,18 +140,7 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.modal-check__text span {
-  width: 16px;
-  height: 15px;
-  border-radius: 2px;
-  border: 2px solid var(--secondary-text-color);
-  margin-right: 7px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color var(--time) var(--cubic),
-    border var(--time) var(--cubic);
-}
+
 .modal-check__icon {
   fill: transparent;
   transition: fill var(--time) var(--cubic);

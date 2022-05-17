@@ -4,6 +4,20 @@
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
+
+  h2 {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+  }
 }
 .cards .cards__wrap-text {
   position: absolute;
@@ -44,18 +58,4 @@
 .cards__item-name {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
-}
-
-.cards h2 {
-  margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
-}
-.cards p {
-  font-size: 16px;
-  line-height: 1.88;
-  color: var(--primary-text-color);
 }

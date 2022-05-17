@@ -179,7 +179,6 @@ img {
   background-position: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-hero.jpg);
 }
-
 .hero__name {
   width: 696px;
   text-align: center;
@@ -238,7 +237,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
 .about-name h3 {
   font-weight: 700;
   font-size: 14px;
@@ -403,16 +401,13 @@ img {
 }
 
 .footer-form__input {
-  color: var(--primary-white-color);
-}
-
-.footer-form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   width: 358px;
   height: 50px;
+  color: var(--primary-white-color);
   background-color: var(--background-hero-footer);
   margin-right: 12px;
   padding: 15px 16px;
@@ -480,6 +475,15 @@ img {
   border-radius: 4px;
   padding: 40px;
 }
+.modal h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
 
 .modal-button-close {
   position: absolute;
@@ -498,16 +502,6 @@ img {
 }
 .modal-button-close:hover, .modal-button-close:focus {
   fill: var(--accent-color);
-}
-
-.modal h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 12px;
 }
 
 .modal-field {
@@ -581,14 +575,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.modal-check__conditions {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
 .modal-check__text span {
   width: 16px;
   height: 15px;
@@ -599,6 +585,13 @@ img {
   justify-content: center;
   align-items: center;
   transition: background-color var(--time) var(--cubic), border var(--time) var(--cubic);
+}
+
+.modal-check__conditions {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .modal-check__icon {
@@ -640,6 +633,20 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
 .team-card {
   display: flex;
@@ -653,22 +660,6 @@ img {
 
 .team-card__name + .team-card__name {
   margin-left: 30px;
-}
-
-.team h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 10px;
-}
-
-.team p {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  margin-bottom: 16px;
 }
 
 .team-table {
@@ -740,6 +731,19 @@ img {
   margin-right: -30px;
   margin-top: -30px;
 }
+.cards h2 {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.cards p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
 
 .cards .cards__wrap-text {
   position: absolute;
@@ -780,19 +784,4 @@ img {
 .cards__item-name {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
-}
-
-.cards h2 {
-  margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
-}
-
-.cards p {
-  font-size: 16px;
-  line-height: 1.88;
-  color: var(--primary-text-color);
 }/*# sourceMappingURL=main.css.map */
