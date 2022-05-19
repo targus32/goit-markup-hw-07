@@ -1,7 +1,9 @@
 @import './utils/variables';
 
+@import './base/reset';
+@import './base/common';
+
 @import './components/section-title';
-@import './components/reset';
 @import './components/time-animation';
 @import './components/container';
 @import './components/section';
@@ -15,6 +17,5 @@
 @import './layout/footer';
 @import './layout/modal';
 @import './layout/team';
-
 @import './layout/portfolio-filtr';
 @import './layout/portfolio-cards';
